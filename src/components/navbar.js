@@ -1,4 +1,3 @@
-/* This example requires Tailwind CSS v2.0+ */
 import { useEffect, useState } from "react";
 import { Disclosure } from "@headlessui/react";
 import { SearchIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
