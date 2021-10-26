@@ -56,7 +56,7 @@ export default function Navbar() {
         <Disclosure as="nav" className="bg-black border-b  border-gray-800 ">
           {({ open }) => (
             <>
-              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <div className="mx-auto px-8 sm:px-6 lg:px-32">
                 <div className="flex items-center justify-between h-16">
                   <div className="flex items-center">
                     <div className="flex-shrink-0  ">
@@ -172,7 +172,7 @@ export default function Navbar() {
           )}
         </Disclosure>
         <main>
-          <div className="min-h-full lg:px-24 px-8 py-16 text-white">
+          <div className="min-h-full lg:px-32 px-8 py-16 text-white">
             <h4 className="text-4xl"> How it works</h4>
             <div className="flex mt-8 ">
               <div className="inline-flex flex-col">

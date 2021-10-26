@@ -84,7 +84,7 @@ function CauroselComponent() {
   return (
     <>
       <div className="px-0">
-        <h1 className="text-white font-bold text-3xl ml-16 mb-2">Top Deals</h1>
+        <h1 className="text-white font-bold text-3xl ml-32 mb-2">Top Deals</h1>
         <Carousel breakPoints={breakPoints}>
           {data.map((item) => (
             <Items item={item} />
